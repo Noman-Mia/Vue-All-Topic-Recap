@@ -1,11 +1,9 @@
-<script setup>
-const name = "rahim";
-</script>
-
+3. Attribute Bindings
+```vue
 <template>
-  <p>Name: {{ name }}</p>
+   <img v-bind:src="imgURL">
 </template>
-
-<style scoped>
-
-</style>
+<script setup>
+  const imgURL = 'https://laravel.com/img/logomark.min.svg';
+</script>
+```
