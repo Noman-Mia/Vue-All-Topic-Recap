@@ -214,5 +214,4 @@ const getFullName = () => {
   return firstName.value + " " + lastName.value;
 };
 </script>
-
 ```
